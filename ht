@@ -1,0 +1,12 @@
+lst = []
+while(True):
+    n = int(input())
+    if(n<=0):
+        break
+    lst.append(n)
+s = 0
+for x in lst:
+    if(x%2==0):
+        s += x
+print("Sum =",s)
+
